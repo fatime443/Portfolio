@@ -78,10 +78,13 @@ a:hover{
 .nav-text a:hover{
     background-color: #1e2124 ;
 }
+section{
+    background-color:#1D809F;
+    padding: 120px 0; 
+}
 .icon-section{
     background-color:#1D809F;
-    padding-bottom: 120px;
-    padding-top: 180px; 
+    text-align: center;
 }
 .icon-head h3{
     color: #fff;
@@ -96,23 +99,19 @@ a:hover{
     font-size: 48px;
     text-transform: capitalize;
 }
-.icon-section .icon-item{
-    float: left;
-    margin-left: 20px;
-    margin-right: 20px;
-}
 .icon-item{
-   text-align: center;
-   padding-left: 70px;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+   
 }
 .icon-item i{
     background-color: #fff;
     color:#114d5f ;
-    padding: 35px 50px;
-    margin-bottom: 10px;
-    margin-left:50px;
-    margin-right:50px;
-    border-radius: 100%;
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 50%;
 }
 .icon-item i:hover{
     background-color: darkgray;
@@ -177,6 +176,7 @@ article {
 }
 .img-section{
     padding: 140px 140px;
+    background-color: #fff;
 }
 .img-item{
     width:50%;
@@ -247,8 +247,8 @@ img{
    height: 100%;
 }
 .all-item{
-    height: 30vh;
-    padding:120px 700px; 
+    height: 50vh;
+    padding: 100px 520px;
 }
 .all-item i{
     padding: 30px 30px;
